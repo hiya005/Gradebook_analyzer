@@ -1,46 +1,34 @@
-Gradebook Analyzer
+# 📘 Gradebook Analyzer
 
-A simple Python program that reads student marks, calculates totals & percentages, assigns grades, and displays the results.
+A simple and beginner-friendly Python program that helps calculate student results, including total marks, percentage, and grade — all through a clean CLI (Command Line Interface).
 
-🚀 Features
+---
 
-Input student names and marks
+## 🚀 Features
+- Add multiple students
+- Enter marks for any number of subjects
+- Calculates:
+  - ✔️ Total Marks  
+  - ✔️ Percentage  
+  - ✔️ Grade (A, B, C, D, Fail)
+- Displays results in a neat formatted output
+- No external libraries required
 
-Automatically calculates:
+---
 
-Total marks
-
-Percentage
-
-Grade (A/B/C/D/Fail)
-
-Saves results inside the program output (CSV optional)
-
-Clean console-based output
-
-🛠 Requirements
-
-Python 3.x
-
-No external libraries needed
-
-▶️ How to Run
-python gradebook.py
-
-
-Enter student details when prompted.
-
-📁 Project Structure
+## 📂 Project Structure
 gradebook/
 │-- gradebook.py
 │-- README.md
 
-📌 How It Works
 
-Takes input for subjects
+---
 
-Performs calculations
+## ▶️ How to Run
+Make sure Python 3 is installed.
 
-Displays formatted results
+Run the program using:
 
-Can be extended to save output if needed
+```bash
+python gradebook.py
+
