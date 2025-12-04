@@ -67,12 +67,12 @@ gradebook_analyzer/
 
 ## CSV Format Example
 
-name,marks  
-Alice,78  
-Bob,92  
-Charlie,55  
-Dave,39  
-Emma,88  
+name,marks,grade 
+Alice,78,C  
+Bob,92,A
+Charlie,55,F  
+Dave,39,F  
+Emma,88,B  
 
 ## Requirements
 
