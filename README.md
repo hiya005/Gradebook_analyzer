@@ -36,7 +36,7 @@ Pass/Fail Criteria:
 - Pass: score ≥ 40
 - Fail: score < 40
 
-Sample Table Output (for explanation):
+Sample Table Output :
 Name        Marks      Grade
 -----------------------------------
 Alice       78         C
