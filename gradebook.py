@@ -106,12 +106,10 @@ def pass_fail_filter(marks_dict):
 def print_results_table(marks_dict, grades_dict):
     print("\n FINAL RESULTS ")
     print(f"{'Name':<15}{'Marks':<10}{'Grade':<10}")
-    print("-------------------------------------------------")
 
     for name in marks_dict:
         print(f"{name:<15}{marks_dict[name]:<10}{grades_dict[name]:<10}")
 
-    print("-------------------------------------------------")
 
 #  EXPORT CSV  #
 def export_to_csv(marks_dict, grades_dict):
@@ -125,7 +123,7 @@ def export_to_csv(marks_dict, grades_dict):
         for name in marks_dict:
             writer.writerow([name, marks_dict[name], grades_dict[name]])
 
-    print(f"\n📁 Results exported to: {filename}")
+    print(f"\n Results exported to: {filename}")
 
 #  MAIN LOOP  #
 while True:
